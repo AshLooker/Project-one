@@ -11,6 +11,9 @@ body {
     font-weight: 300;
     color: #3a3a3a;
 }
+
+/*headings and logo */
+
 h1, h2 {
     font-family: EB Garamond, sans-serif;
     text-transform: uppercase;
@@ -20,4 +23,34 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 200%;
+}
+
+ /* navagation links */
+
+#menu {
+    font-size: 100%;
+    letter-spacing: 0px;
+}
+
+#menu, #logo {
+    line-height: 100px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }

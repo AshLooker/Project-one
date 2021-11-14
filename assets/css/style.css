@@ -9,4 +9,15 @@
 body { 
     font-family: Cormorant, sans-serif;
     font-weight: 300;
+    color: #3a3a3a;
+}
+h1, h2 {
+    font-family: EB Garamond, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+#logo {
+    float: left;
+    font-size: 200%;
 }

@@ -17,19 +17,20 @@ body {
 h1, h2 {
     font-family: EB Garamond, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     color: #252525;
 }
 #logo {
     float: left;
     font-size: 200%;
+    letter-spacing: 2px;
 }
 
  /* navagation links */
 
 #menu {
     font-size: 100%;
-    letter-spacing: 0px;
+    letter-spacing: 1px;
 }
 
 #menu, #logo {
@@ -53,4 +54,20 @@ h1, h2 {
 
 .active {
     border-bottom: 1px solid #3a3a3a;
+}
+
+/* Home Images */
+
+#home-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#home-image {
+    height:600px;
+    width:100%;
+    background-image: url('../images/Medicinal\ Flowers.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
 }

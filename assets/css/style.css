@@ -24,6 +24,7 @@ h1, h2 {
     float: left;
     font-size: 200%;
     letter-spacing: 2px;
+    margin-left:30px;
 }
 
  /* navagation links */
@@ -70,4 +71,32 @@ h1, h2 {
     background-image: url('../images/Medicinal\ Flowers.jpeg');
     background-repeat: no-repeat;
     background-position: center center;
+    margin-left:0%;
+    margin-right:0%;
+}
+
+/* About Us section */
+
+#About-Us {
+    height: 600px;
+}
+
+#about-us-heading {
+    padding:15px;
+    text-align: center;
+    font-size: 150%;
+    letter-spacing: 2px;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 50%;
+    float:left;
+    background-color: blue;
+}
+#right-about {
+    padding-top: 30px;
+    width: 50%;
+    float: right;
+    background-color: red;
 }

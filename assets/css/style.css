@@ -66,13 +66,12 @@ h1, h2 {
 }
 
 #home-image {
-    height:600px;
+    height:100%;
     width:100%;
     background-image: url('../images/Medicinal\ Flowers.jpeg');
     background-repeat: no-repeat;
     background-position: center center;
-    margin-left:0%;
-    margin-right:0%;
+    object-fit: cover;
 }
 
 /* About Us section */
@@ -82,21 +81,26 @@ h1, h2 {
 }
 
 #about-us-heading {
-    padding:15px;
+    padding: 30px;
     text-align: center;
     font-size: 150%;
     letter-spacing: 2px;
 }
 
-#left-about {
-    padding-top: 30px;
-    width: 50%;
-    float:left;
-    background-color: blue;
+
+
+#we-care {
+    width: 100%;
 }
-#right-about {
-    padding-top: 30px;
-    width: 50%;
-    float: right;
-    background-color: red;
+#we-care-p {
+    font-size: 120%;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+#gallery-header {
+    padding: 50px;
+    font-size: 150%;
+    text-align: center;
+    letter-spacing: 2px;
 }

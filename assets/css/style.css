@@ -94,6 +94,7 @@ h1, h2 {
     font-size: 120%;
     letter-spacing: 1px;
     text-align: center;
+    margin:20px
 }
 
 /*Gallery Section */
@@ -110,21 +111,73 @@ h1, h2 {
 }
 
 #left-image {
-    padding-top: 30px;
+    padding-top: 15px;
     width: 33.33%;
     float: left;
-    background-color: red;
 }
 
 #right-image {
-    padding-top: 30px;
+    padding-top: 15px;
     width: 33.33%;
     float: right;
-    background-color: blue;
 }
 
 #center-image {
-    width: 33%;
+    padding-top: 15px;
+    width: 33.33%;
     margin: 0 auto;
-    background-color: green;
 }
+
+#left-container {
+    width: 333px;
+    height: 333px;
+    padding: 30px;
+    border-style: solid;
+    border-color: darkred;
+    border-width:1px;
+    float: left;
+    margin-left: 30px;
+}
+
+#right-container {
+    width: 333px;
+    height: 333px;
+    padding: 30px;
+    border-style: solid;
+    border-color: darkblue;
+    border-width: 1px;
+    float: right;
+    margin-right: 30px;
+}
+
+#center-container {
+    width: 333px;
+    height: 333px;
+    padding: 30px;
+    border-style: solid;
+    border-color: darkgreen;
+    border-width: 1px;
+    margin: 0 auto;
+}
+
+#left-cover-bg {
+    background-image: url(../images/gallery\ 2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height:100%;
+}
+
+#right-cover-bg {
+    background-image: url(../images/gallery\ 3.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+#center-cover-bg {
+    background-image: url(../images/gallery\ 1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height:100%
+}
+

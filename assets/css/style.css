@@ -10,6 +10,10 @@ body {
     font-family: Cormorant, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
+    background-image: url(http://www.zingerbugimages.com/backgrounds/beige_parchment_paper_background_1800x1600.jpg);
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size: cover;
 }
 
 /*headings and logo */
@@ -28,6 +32,11 @@ h1, h2 {
 }
 
  /* navagation links */
+
+#header {
+    background-color:#E6DDD3;
+    height: 100px;
+ }
 
 #menu {
     font-size: 100%;
@@ -62,7 +71,7 @@ h1, h2 {
 #home-outer {
     height: 600px;
     width: 100%;
-    overflow: hidden;
+    overflow: hidden;  
 }
 
 #home-image {
@@ -71,113 +80,106 @@ h1, h2 {
     background-image: url('../images/Medicinal\ Flowers.jpeg');
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: cover;
 }
 
 /* About Us section */
 
 #About-Us {
     height: 600px;
+    padding: 50px;
 }
 
 #about-us-heading {
     padding: 30px;
     text-align: center;
     font-size: 150%;
+    font-weight: 800;
     letter-spacing: 2px;
+    
 }
 
 #we-care {
     width: 100%;
     margin: auto;
 }
-#we-care-p {
+.about-us-p {
     font-size: 120%;
+    font-weight: bold;
     letter-spacing: 1px;
     text-align: center;
     margin:20px
+
 }
 
 /*Gallery Section */
 
 #gallery {
     height: 600px;
+    padding-top: 50px;
 }
-
-#gallery-header {
-    padding: 30px;
+#Gallery-heading {
     text-align: center;
     font-size: 150%;
+    font-weight: 800;
     letter-spacing: 2px;
 }
 
-#left-image {
-    padding-top: 15px;
-    width: 33.33%;
-    float: left;
+#gallery-slideshow {
+    height: 600px;
+    width: 100%;
+    background-color: red;
 }
 
-#right-image {
-    padding-top: 15px;
-    width: 33.33%;
-    float: right;
+
+/* contact us */
+
+
+/* where to find us */
+
+#map-wrapper {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 100px;
 }
 
-#center-image {
-    padding-top: 15px;
-    width: 33.33%;
-    margin: 0 auto;
+#map {
+    height: 600px;
+    width: 100%;
+    padding-bottom: 200px;
+    border: none;
 }
 
-#left-container {
-    width: 333px;
-    height: 333px;
-    padding: 30px;
-    border-style: solid;
-    border-color: darkred;
-    border-width:1px;
-    float: left;
-    margin-left: 30px;
+/* Footer Section */
+
+#footer {
+    background-color: #E6DDD3;
+    height: 200px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
 }
 
-#right-container {
-    width: 333px;
-    height: 333px;
-    padding: 30px;
-    border-style: solid;
-    border-color: darkblue;
-    border-width: 1px;
-    float: right;
-    margin-right: 30px;
+.social-networks {
+    text-align:  center;
 }
 
-#center-container {
-    width: 333px;
-    height: 333px;
-    padding: 30px;
-    border-style: solid;
-    border-color: darkgreen;
-    border-width: 1px;
-    margin: 0 auto;
+.social-networks > li {
+    display: inline;
 }
 
-#left-cover-bg {
-    background-image: url(../images/gallery\ 2.jpeg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    height:100%;
+.social-networks i {
+    font-size: 180%;
+    margin: 1%;
+    padding: 2%;
+    padding-top: 5%;
+    color: #3a3a3a;
 }
 
-#right-cover-bg {
-    background-image: url(../images/gallery\ 3.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100%;
+footer, p {
+    text-align: center;
+    font-size: 120%;
+    padding-top: 0%;
 }
-
-#center-cover-bg {
-    background-image: url(../images/gallery\ 1.jpeg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    height:100%
-}
-

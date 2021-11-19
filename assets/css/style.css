@@ -10,10 +10,22 @@ body {
     font-family: Cormorant, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
-    background-image: url(http://www.zingerbugimages.com/backgrounds/beige_parchment_paper_background_1800x1600.jpg);
+    background-image: url(../images/4999895.jpg);
     background-position:center center;
     background-repeat:no-repeat;
     background-size: cover;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
 }
 
 /*headings and logo */
@@ -23,12 +35,20 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
+    font-size: 180%;
 }
 #logo {
     float: left;
     font-size: 200%;
     letter-spacing: 2px;
     margin-left:30px;
+}
+
+p {
+    font-family: EB Garamond, sans-serif;
+    color: #3a3a3a;
+    font-weight: 500;
+    font-size: 120%;
 }
 
  /* navagation links */
@@ -86,43 +106,20 @@ h1, h2 {
 /* About Us section */
 
 #About-Us {
-    height: 600px;
-    padding: 50px;
-}
-
-#about-us-heading {
-    padding: 30px;
-    text-align: center;
-    font-size: 150%;
-    font-weight: 800;
-    letter-spacing: 2px;
-    
+    height: 200px;
+    padding-top: 30px;
 }
 
 #we-care {
     width: 100%;
-    margin: auto;
+    padding-top: 30px;
 }
-.about-us-p {
-    font-size: 120%;
-    font-weight: bold;
-    letter-spacing: 1px;
-    text-align: center;
-    margin:20px
 
-}
 
 /*Gallery Section */
 
 #gallery {
     height: 600px;
-    padding-top: 50px;
-}
-#Gallery-heading {
-    text-align: center;
-    font-size: 150%;
-    font-weight: 800;
-    letter-spacing: 2px;
 }
 
 #gallery-slideshow {
@@ -134,7 +131,33 @@ h1, h2 {
 
 /* contact us */
 
+#contact {
+    height: 500px;
+}
+.contact-us {
+    text-align: center;
+    padding-top: 30px;
+}
 
+#left-contact {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: blue;
+}
+
+#right-contact {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: silver;
+}
+
+#center-contact {
+    width: 33%;
+    margin: 0 auto;
+    background-color: green;
+}
 /* where to find us */
 
 #map-wrapper {
@@ -154,7 +177,7 @@ h1, h2 {
 
 #footer {
     background-color: #E6DDD3;
-    height: 200px;
+    padding: 1em;
     width: 100%;
     position: fixed;
     bottom: 0;
@@ -180,6 +203,4 @@ h1, h2 {
 
 footer, p {
     text-align: center;
-    font-size: 120%;
-    padding-top: 0%;
 }

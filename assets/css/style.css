@@ -30,13 +30,23 @@ body {
 
 /*headings and logo */
 
-h1, h2 {
+h1, h2{
     font-family: EB Garamond, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
     font-size: 180%;
 }
+
+h3 {
+    font-family: EB Garamond, sans-serif;
+    letter-spacing: 2px;
+    color: 2
+    #252525;
+    font-size: 130%;
+}
+
+
 #logo {
     float: left;
     font-size: 200%;
@@ -119,37 +129,51 @@ p {
 /*Gallery Section */
 
 #gallery {
-    height: 600px;
+    height:auto;
 }
 
-#gallery-slideshow {
-    height: 600px;
+#gallery-images {
+    height: 310px;
     width: 100%;
     background-color: red;
 }
 
-
 /* contact us */
 
 #contact {
-    height: 500px;
+    height: 300px;
+    padding-top: 50p;
 }
 .contact-us {
     text-align: center;
-    padding-top: 30px;
 }
 
 #left-contact {
-    padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: blue;
+    font-size: 120%;
 }
 
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #3a3a3a;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color:#E6DDD3;
+  }
+
+
 #right-contact {
-    padding-top: 30px;
     width: 33%;
     float: right;
+    font-size: 120%;
     background-color: silver;
 }
 
@@ -182,7 +206,6 @@ p {
     position: fixed;
     bottom: 0;
     right: 0;
-    z-index: 3;
 }
 
 .social-networks {

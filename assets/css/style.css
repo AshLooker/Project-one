@@ -28,6 +28,16 @@ body {
     text-align: left;
 }
 
+.bold {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
+.table {
+    font-family: sans-serif;
+}
 /*headings and logo */
 
 h1, h2{
@@ -129,7 +139,7 @@ p {
 /*Gallery Section */
 
 #gallery {
-    height:600px;
+    height:400px;
     padding-top: 50px;
 }
 .gallery-image {

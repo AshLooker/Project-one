@@ -195,24 +195,20 @@ p {
 }
 
 #left-contact {
-    width: 33%;
+    width: 50%;
     float: left;
     font-size: 120%;
 }
 
 
 #right-contact {
-    width: 33%;
+    width: 50%;
     float: right;
     font-size: 120%;
-    background-color: silver;
+    text-align: center;
+    padding-top: 5%
 }
 
-#center-contact {
-    width: 33%;
-    margin: 0 auto;
-
-}
 
 table {
     border-collapse: collapse;
@@ -274,4 +270,47 @@ tr:nth-child(even) {
 
 footer, p {
     text-align: center;
+}
+
+/* Gallery photos */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0;
+
+}
+
+#photos > img {
+    width: 100%;
+}
+
+/* Media queries */
+
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    #contact {
+        width: 65%;
+        height: 800px;
+        margin: 0 auto;
+    }
+
+    .about-us {
+        padding: 30px 0;
+        margin: 0;
+    }
+    #right-contact {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 30px 0;
+    }
+    #left-contact {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
 }

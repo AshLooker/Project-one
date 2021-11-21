@@ -129,23 +129,59 @@ p {
 /*Gallery Section */
 
 #gallery {
-    height:auto;
+    height:600px;
+    padding-top: 50px;
+}
+.gallery-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)), url(../images/gallery\ 1.jpeg);
+    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+  
+.gallery-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
 }
 
-#gallery-images {
-    height: 310px;
-    width: 100%;
-    background-color: red;
+.h2-gallery {
+    font-size:50px;
+    color:white;
+    padding: 15px;
 }
+
+.gallery-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+}
+  
+.gallery-text button:hover {
+    background-color: #555;
+    color: white;
+}
+
 
 /* contact us */
 
 #contact {
     height: 300px;
-    padding-top: 50p;
+    padding-bottom: 50px;
 }
 .contact-us {
     text-align: center;
+    padding-bottom: 30px;
 }
 
 #left-contact {
@@ -153,21 +189,6 @@ p {
     float: left;
     font-size: 120%;
 }
-
-table {
-    border-collapse: collapse;
-    width: 100%;
-  }
-  
-  td, th {
-    border: 1px solid #3a3a3a;
-    text-align: left;
-    padding: 8px;
-  }
-  
-  tr:nth-child(even) {
-    background-color:#E6DDD3;
-  }
 
 
 #right-contact {
@@ -180,20 +201,37 @@ table {
 #center-contact {
     width: 33%;
     margin: 0 auto;
-    background-color: green;
+
 }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th {
+    border: 1px solid #3a3a3a;
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color:#E6DDD3;
+}
+
 /* where to find us */
 
 #map-wrapper {
     height: 300px;
     width: 100%;
     margin-bottom: 100px;
+    padding-top: 50px;
 }
 
 #map {
     height: 600px;
     width: 100%;
-    padding-bottom: 200px;
+    padding-bottom: 230px;
     border: none;
 }
 

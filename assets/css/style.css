@@ -76,6 +76,7 @@ p {
 #header {
     background-color:#E6DDD3;
     height: 100px;
+    padding: 0;
  }
 
 #menu {
@@ -232,6 +233,7 @@ tr:nth-child(even) {
     width: 100%;
     margin-bottom: 100px;
     padding-top: 50px;
+    margin: auto;
 }
 
 #map {
@@ -239,6 +241,7 @@ tr:nth-child(even) {
     width: 100%;
     padding-bottom: 230px;
     border: none;
+    margin: auto;
 }
 
 /* Footer Section */
@@ -286,31 +289,109 @@ footer, p {
     width: 100%;
 }
 
+/* About us page */
+
+#about-us-page {
+    clear: both;
+    height:500px;
+    padding-top: 50px;
+    letter-spacing: 2px;
+    margin:auto
+
+}
+
+#about-us-outer {
+    height: 800px;
+    width: 100%;
+    padding-bottom: 250px;
+}
+
+#about-us-image {
+    height:100%;
+    max-width:100%;
+    background-image: url(../images/shop\ floor.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}    
+
 /* Media queries */
 
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
+    
+    #About-us {
+        width: 65%;
+        height:400px;
+        margin: 0 auto;
+    }
+    
+    .about-us {
+        padding: 30px 0;
+        margin: 0;
+    }
+
     #contact {
         width: 65%;
         height: 800px;
         margin: 0 auto;
     }
 
-    .about-us {
-        padding: 30px 0;
-        margin: 0;
-    }
-    #right-contact {
+    #right-contact, #left-contact {
         clear: both;
         width: 100%;
         float: left;
         padding: 30px 0;
-    }
-    #left-contact {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
     }
 
+    #about-us-page {
+        width: 65%;
+        margin: auto;
+        padding-bottom: 200px;
+    }
+
+    #about-us-outer {
+        padding-bottom: 0;
+    }
 }
+
+/*For medium screen sizes from 950px wide and down */
+
+@media screen and (max-width: 950px) {
+
+    #header {
+        height: 150px;
+    }
+
+    #logo {
+        line-height: 50px;
+    }
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #contact {
+        width: 90%;
+        height:800px;
+        margin: 0 auto;
+    }
+
+    #map {
+        padding-bottom: 200px;
+    }
+    
+    #about-us-page {
+        width: 90%;
+        margin:auto;
+        padding-bottom: 450px;
+    }
+
+    #about-us-outer {
+        padding-bottom: 0;
+    }
+   }

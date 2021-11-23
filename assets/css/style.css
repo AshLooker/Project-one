@@ -51,8 +51,7 @@ h1, h2{
 h3 {
     font-family: EB Garamond, sans-serif;
     letter-spacing: 2px;
-    color: 2
-    #252525;
+    color:#252525;
     font-size: 130%;
 }
 
@@ -118,7 +117,7 @@ p {
 #home-image {
     height:100%;
     max-width:100%;
-    background-image: url('../images/Medicinal\ Flowers.jpeg');
+    background-image: url('../images/Medicinal-Flowers.jpeg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -313,7 +312,7 @@ footer, p {
 #about-us-image {
     height:100%;
     max-width:100%;
-    background-image: url(../images/shop\ floor.jpeg);
+    background-image: url(../images/shop-floor.jpeg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;

@@ -144,7 +144,7 @@ p {
     padding-top: 50px;
 }
 .gallery-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)), url(../images/gallery\ 1.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)), url(../images/gallery-1.jpeg);
     height: 80%;
     background-position: center;
     background-repeat: no-repeat;

@@ -508,13 +508,13 @@ button:hover {
     }
 
     #about-us-main {
-        height: auto;
+        height: 400px;
     }
 
     #about-us-main, p {
         margin: 50px;
-        height: 150px;
     }
+
     #sign-up {
         height: 950px;
     }
@@ -529,4 +529,28 @@ button:hover {
        #photos {
            column-count: 2;
        }
+   }
+
+   @media screen and (max-width:400px) {
+    
+    #about-us-main {
+        height: auto;
+        width: 80%;
+    }
+    
+    #about-us-main, p {
+        height: 150px;
+    }
+    
+    #about-us-page {
+        height: 1400px; 
+        width: 80%;   
+    }
+    #about-us-page, p {
+        margin:auto;
+        padding-bottom: 200px;
+    }
+    #about-us-outer {
+        margin-top: 400px;
+    }
    }
